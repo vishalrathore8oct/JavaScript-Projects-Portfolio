@@ -1,30 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JS Projects Portfolio</title>
+    <!-- link the fontawesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- link the style sheet -->
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- home section of the website -->
     <section class="home-section">
-        <header>
-            <div class="logo-img">
-                <img src="./assets/logo.png" alt="Logo Image">
+      <!-- header portion of home section -->
+      <header>
+        <div class="logo-img">
+          <img src="./assets/logo.png" alt="Logo Image" />
+        </div>
+        <nav>
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- main section of home section -->
+      <main>
+        <div class="title-section">
+          <h1>
+            51 PROJECTS OF VANILLA JAVASCRIPT<br />
+            <span>WITH SOURCE CODE & LIVE PROJECTS LINKS</span>
+          </h1>
+        </div>
+        <div class="left-right-section">
+          <div class="left-main-sction">
+            <div>
+              <img src="./assets/profile_image.png" alt="Profile Image" />
             </div>
-            <nav>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Projects</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main></main>
-    
+          </div>
+          <div class="right-main-sction">
+            <div>
+              <p class="intro-1">Hello I'm</p>
+              <p class="intro-2">Vishal Rathore</p>
+              <p class="intro-3">Indian FrontEnd Developer</p>
+            </div>
+            <div>
+              <button>
+                <a href="./assets/Resume.pdf" download>Download Resume</a>
+              </button>
+            </div>
+            <div>
+              <a
+                href="https://www.linkedin.com/in/vishalrathore8oct/"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/vishalrathore8oct" target="_blank"
+                ><i class="fa-brands fa-square-github"></i
+              ></a>
+              <a href="https://twitter.com/vishalrathore66" target="_blank"
+                ><i class="fa-brands fa-square-twitter"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </main>
+    </section>
+    <!-- project section of website -->
+    <section class="project-section">
+      <div class="project-heading">
+        <h1>JavaScript Projects</h1>
+        <p>
+          Here is my all projects that I've done in HTML, CSS & Vanilla
+          JavaScript .
+        </p>
+      </div>
+      <div class="projects-container">
+        <div class="project-card">
+          <div class="project-img-section">
+            <img src="./assets/calculator.png" alt="Project Image" />
+          </div>
+          <div class="project-title-section">
+            <h2>Project Name</h2>
+          </div>
+          <div class="project-button-section">
+            <a href="https://github.com/vishalrathore8oct/calculator-app"
+              ><button>GitHub Code</button></a
+            >
+            <a href="https://calculator-app-one-liart.vercel.app/"
+              ><button>Live Demo</button></a
+            >
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img-section">
+            <img src="./assets/validator.png" alt="Project Image" />
+          </div>
+          <div class="project-title-section">
+            <h2>Project Name</h2>
+          </div>
+          <div class="project-button-section">
+            <a href="https://github.com/vishalrathore8oct/password-validator"
+              ><button>GitHub Code</button></a
+            >
+            <a href="https://password-validator-two.vercel.app/"
+              ><button>Live Demo</button></a
+            >
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img-section">
+            <img src="./assets/counter.png" alt="Project Image" />
+          </div>
+          <div class="project-title-section">
+            <h2>Project Name</h2>
+          </div>
+          <div class="project-button-section">
+            <a href="https://github.com/vishalrathore8oct/counter-app"
+              ><button>GitHub Code</button></a
+            >
+            <a href="https://counter-app-six-psi.vercel.app/"
+              ><button>Live Demo</button></a
+            >
+          </div>
+        </div>
+      </div>
     </section>
     <!-- link the script file -->
     <script src="./script.js"></script>
-    
-</body>
+  </body>
+</html>
