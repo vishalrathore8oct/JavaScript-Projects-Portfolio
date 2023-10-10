@@ -157,7 +157,7 @@ main {
 /* .project section styleing  */
 
 .project-section {
-    padding: 0 6rem 12rem;
+    padding: 0 6rem 8rem;
 }
 
 .projects-container {
@@ -232,6 +232,12 @@ main {
 .project-button-section button:hover {
     background-color: #5dcedd;
     border: none;
+}
+
+.copyright p {
+    text-align: center;
+    font-size: 2rem;
+    margin: 4rem;
 }
 
 
